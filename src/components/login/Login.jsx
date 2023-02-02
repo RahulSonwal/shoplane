@@ -30,8 +30,6 @@ const Login = () => {
         password: ''
     })
 
-    const { email, password } = value;
-
     function submitHandle() {
         navigate('/', true)
     }
