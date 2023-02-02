@@ -1,0 +1,125 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.signup-form {
+    padding: 1.5rem;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 2px 9px rgb(0, 0, 0);
+}
+
+.signup-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.signup-form-cred {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form-cred label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.signup-field {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid #0b5fe6;
+}
+
+.btn {
+    width: 100%;
+    background: #0b5fe6;
+    border: none;
+    padding: 0.9rem;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.error-msg {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.signup-success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.signup-success-content {
+    width: 50%;
+}
+
+.signup-success-content h3 {
+    font-size: 2.5rem;
+}
+
+.signup-success-content span {
+    color: #0becec;
+    font-weight: bold;
+}
+
+.signup-success-content p {
+    width: 550px;
+}
+
+.h-icon {
+    font-size: 1.5rem;
+    color: rgb(231, 8, 8);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .signup-form {
+        max-width: 300px;
+        box-shadow: none;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .signup-container {
+        height: 450px;
+    }
+
+    .signup-success {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .signup-success-content p {
+        width: 250px;
+    }
+
+    .signup-success-content {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signup-success-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .h-icon {
+        display: none;
+    }
+}
